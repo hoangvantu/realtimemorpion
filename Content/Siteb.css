@@ -1,0 +1,43 @@
+﻿body {
+    background-color : #e5e3e3;
+}
+
+.board
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:330px;
+    height:330px;
+    background-color : #808080;
+}
+
+.cell
+{
+    width:100px;
+    height:100px;
+    float : left;
+    margin : 5px;
+    background-color : #f5b3b3;
+}
+
+.cell:hover
+{
+    background-color : #ffffff;
+    cursor:pointer;
+}
+
+.header{
+    background-color : #f14a4a;    
+    color : #ffffff;
+    padding : 10px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size : 18px;
+}
+
+
+.content
+{
+    background-color : #e5e3e3;
+    padding : 10px;
+}
+
